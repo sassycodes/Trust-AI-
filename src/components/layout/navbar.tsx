@@ -102,7 +102,7 @@ const Navbar = () => {
                             {link.name}
                         </Link>
                     ))}
-                    <Link href="https://forms.gle/aBgEUkrRpkKZs9Su5" target="_blank" className="w-full">
+                    <Link href="https://unstop.com/o/PajkhH1?lb=46jViFUd&utm_medium=Share&utm_source=sarthgai85049&utm_campaign=Online_coding_challenge" target="_blank" className="w-full">
                         <Button className="w-full bg-contrast-gold text-midnight">Register Now</Button>
                     </Link>
                 </div>
