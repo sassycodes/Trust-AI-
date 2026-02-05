@@ -2,12 +2,18 @@ import Link from "next/link";
 import { Mail, Linkedin, Twitter, MapPin, Phone } from "lucide-react";
 
 const Footer = () => {
-    const studentLeads = [
-        { name: "Roshni", contact: "+91 9137649761" },
-        { name: "Gargi", contact: "+91 7066081728" },
-        { name: "Ayushman", contact: "+91 74398 27539" },
-        { name: "Yuvraj", contact: "+91 93094 61747" },
-        { name: "Sarthak", contact: "+91 82087 38340" },
+    const officeBearers = [
+        { name: "Saurav Dhabade", role: "9623328182" },
+        { name: "Roshni Sahoo", role: "9137649761" },
+        { name: "Gargi Avadhani", role: "7066081728" },
+        { name: "Piyush Kulkarni", role: "9405582136" },
+    ];
+
+    const verticalHeads = [
+
+        { name: "Sarthak Gaikwad", role: "8208738340" },
+        { name: "Yuvraj Jarwal", role: "9309461747" },
+        { name: "Ayushman Ghosh", role: "7439827539" },
     ];
 
     return (
@@ -26,19 +32,47 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    {/* Student Leads */}
-                    <div className="md:col-span-2">
-                        <h4 className="text-lg font-semibold text-white mb-6">Student Representatives</h4>
-                        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-                            {studentLeads.map((lead, i) => (
-                                <div key={i} className="bg-white/5 p-4 rounded-lg border border-white/10 hover:border-contrast-gold/30 transition-colors">
-                                    <p className="text-white font-medium">{lead.name}</p>
-                                    <p className="text-sm text-contrast-gold mb-2">Lead Organizer</p>
-                                    <a href={`tel:${lead.contact.replace(/\s/g, '')}`} className="text-xs text-gray-400 hover:text-white flex items-center gap-2">
-                                        <Phone size={14} /> {lead.contact}
-                                    </a>
+                    {/* Organizing Team */}
+                    <div className="md:col-span-2 space-y-10">
+                        <div>
+                            <h4 className="text-xl font-bold text-white mb-6 border-b border-white/10 pb-2 inline-block">Organizing Team</h4>
+
+                            {/* Faculty Advisor */}
+                            <div className="mb-8">
+                                <h5 className="text-contrast-gold font-semibold mb-3">Faculty Advisor</h5>
+                                <div className="bg-white/5 p-4 rounded-lg border border-white/10 w-full sm:w-fit">
+                                    <p className="text-white font-medium">Dr. Shrikant Salve</p>
+                                    <p className="text-xs text-gray-400">Faculty Advisor</p>
                                 </div>
-                            ))}
+                            </div>
+
+                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+                                {/* Office Bearers */}
+                                <div>
+                                    <h5 className="text-contrast-gold font-semibold mb-3">Student Coordinators</h5>
+                                    <div className="space-y-3">
+                                        {officeBearers.map((member, i) => (
+                                            <div key={i} className="flex justify-between items-center bg-white/5 p-3 rounded border border-white/5 hover:border-white/20 transition-colors">
+                                                <span className="text-gray-200 text-sm font-medium">{member.name}</span>
+                                                <span className="text-gray-500 text-xs ml-2">{member.role}</span>
+                                            </div>
+                                        ))}
+                                    </div>
+                                </div>
+
+                                {/* Vertical Heads */}
+                                <div>
+                                    <h5 className="text-contrast-gold font-semibold mb-3">Student Coordinators</h5>
+                                    <div className="space-y-3">
+                                        {verticalHeads.map((member, i) => (
+                                            <div key={i} className="flex justify-between items-center bg-white/5 p-3 rounded border border-white/5 hover:border-white/20 transition-colors">
+                                                <span className="text-gray-200 text-sm font-medium">{member.name}</span>
+                                                <span className="text-gray-500 text-xs ml-2">{member.role}</span>
+                                            </div>
+                                        ))}
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
