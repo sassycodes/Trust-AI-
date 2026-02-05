@@ -3,6 +3,8 @@ import { Mail, Linkedin, Twitter, MapPin, Phone } from "lucide-react";
 
 const Footer = () => {
     const studentLeads = [
+        { name: "Roshni", contact: "+91 9137649761" },
+        { name: "Gargi", contact: "+91 7066081728" },
         { name: "Ayushman", contact: "+91 74398 27539" },
         { name: "Yuvraj", contact: "+91 93094 61747" },
         { name: "Sarthak", contact: "+91 82087 38340" },

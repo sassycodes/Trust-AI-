@@ -24,7 +24,7 @@ const Hero = () => {
                         IIIT PUNE PRESENTS
                     </span>
                     <h1 className="text-5xl md:text-7xl font-bold text-white tracking-tight mb-6">
-                        India AI <span className="text-transparent bg-clip-text bg-gradient-to-r from-contrast-gold to-royal-saffron">Summit</span>
+                        India AI <span className="text-transparent bg-clip-text bg-gradient-to-r from-contrast-gold to-royal-saffron">Summit </span>
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-contrast-gold to-royal-saffron">Pre-Event</span>
                     </h1>
 
@@ -44,9 +44,11 @@ const Hero = () => {
                                 Register Now <ArrowRight className="ml-2 h-4 w-4" />
                             </Button>
                         </Link>
-                        <Button size="lg" variant="outline" className="min-w-[200px] text-base hover:text-contrast-gold border-white/10">
-                            Download Rulebook <Download className="ml-2 h-4 w-4" />
-                        </Button>
+                        <Link href="https://drive.google.com/file/d/1t-n7cMGHcLT3juHR3crD18MtuLy8KbUn/view?usp=sharing" target="_blank">
+                            <Button size="lg" variant="outline" className="min-w-[200px] text-base hover:text-contrast-gold border-white/10">
+                                View Rulebook <Download className="ml-2 h-4 w-4" />
+                            </Button>
+                        </Link>
                     </div>
                 </motion.div>
             </div>

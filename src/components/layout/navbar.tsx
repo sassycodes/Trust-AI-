@@ -36,9 +36,9 @@ const Navbar = () => {
                     : "bg-transparent py-6"
             )}
         >
-            <div className="w-full px-6 flex items-center justify-between">
+            <div className="w-full px-6 flex items-center justify-end md:justify-between relative">
                 {/* Logo */}
-                <Link href="/" className="flex items-center gap-3">
+                <Link href="/" className="flex items-center gap-3 absolute left-1/2 -translate-x-1/2 md:static md:translate-x-0">
 
 
                     <div className="relative h-16 w-32 md:h-20 md:w-40">
