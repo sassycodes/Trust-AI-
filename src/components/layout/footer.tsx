@@ -6,13 +6,12 @@ const Footer = () => {
         { name: "Saurav Dhabade", role: "9623328182" },
         { name: "Roshni Sahoo", role: "9137649761" },
         { name: "Gargi Avadhani", role: "7066081728" },
-        { name: "Piyush Kulkarni", role: "9405582136" },
+
     ];
 
     const verticalHeads = [
         { name: "Jayata Roy", role: "9503358763" },
-        { name: "Sarthak Gaikwad", role: "8208738340" },
-        { name: "Yuvraj Jarwal", role: "9309461747" },
+        { name: "Piyush Kulkarni", role: "9405582136" },
         { name: "Ayushman Ghosh", role: "7439827539" },
     ];
 
