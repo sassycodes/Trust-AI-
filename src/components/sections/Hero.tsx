@@ -39,7 +39,7 @@ const Hero = () => {
                     </div>
 
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                        <Link href="https://forms.gle/aBgEUkrRpkKZs9Su5" target="_blank">
+                        <Link href="https://unstop.com/o/PajkhH1?lb=46jViFUd&utm_medium=Share&utm_source=sarthgai85049&utm_campaign=Online_coding_challenge" target="_blank">
                             <Button size="lg" className="bg-contrast-gold text-midnight hover:bg-contrast-gold/90 min-w-[200px] text-base font-semibold">
                                 Register Now <ArrowRight className="ml-2 h-4 w-4" />
                             </Button>
