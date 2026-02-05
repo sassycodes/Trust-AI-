@@ -10,7 +10,7 @@ const Footer = () => {
     ];
 
     const verticalHeads = [
-
+        { name: "Jayata Roy", role: "9503358763" },
         { name: "Sarthak Gaikwad", role: "8208738340" },
         { name: "Yuvraj Jarwal", role: "9309461747" },
         { name: "Ayushman Ghosh", role: "7439827539" },
