@@ -74,7 +74,7 @@ const Rules = () => {
                             </div>
                             <div>
                                 <h4 className="text-white font-medium mb-1">Stage 2: Grand Finale (IIIT Pune)</h4>
-                                <p className="text-sm text-gray-400">24-hour ideathon to build and defend your solution.</p>
+                                <p className="text-sm text-gray-400">Present and defend your solution.</p>
                             </div>
                         </div>
                     </motion.div>

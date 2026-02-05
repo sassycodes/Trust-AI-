@@ -20,16 +20,16 @@ const Hero = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                 >
-                    <span className="inline-block py-1 px-3 rounded-full bg-white/5 border border-white/10 text-contrast-gold text-xs font-medium tracking-wider mb-6">
+                    <span className="inline-block py-2 px-4 rounded-full bg-white/5 border border-white/10 text-contrast-gold text-lg font-medium tracking-wider mb-6">
                         IIIT PUNE PRESENTS
                     </span>
                     <h1 className="text-5xl md:text-7xl font-bold text-white tracking-tight mb-6">
-                        India AI <span className="text-transparent bg-clip-text bg-gradient-to-r from-contrast-gold to-royal-saffron">Summit</span>
+                        India AI <span className="text-transparent bg-clip-text bg-gradient-to-r from-contrast-gold to-royal-saffron">Summit - Pre-Event</span>
                     </h1>
 
                     <div className="mb-8">
                         <h2 className="text-2xl md:text-3xl font-bold text-white tracking-wide mb-4">
-                            Trust AI Ideathon 2026
+                            Trust AI Ideathon 2026 on Safe and Trusted AI
                         </h2>
                         <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
                             Building Safe and Trusted AI solutions for India's Future.<br className="hidden md:block" />

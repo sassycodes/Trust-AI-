@@ -38,8 +38,17 @@ const Navbar = () => {
         >
             <div className="w-full px-6 flex items-center justify-between">
                 {/* Logo */}
-                <Link href="/" className="flex items-center gap-2">
-                    <div className="relative h-24 w-auto aspect-[3/1]">
+                <Link href="/" className="flex items-center gap-3">
+                    <div className="relative h-12 w-12 md:h-16 md:w-16">
+                        <Image
+                            src="/assets/iiitp_logo.png"
+                            alt="IIIT Pune"
+                            fill
+                            className="object-contain"
+                        />
+                    </div>
+                    <div className="h-8 w-[1px] bg-white/20 hidden sm:block" />
+                    <div className="relative h-16 w-32 md:h-20 md:w-40">
                         <Image
                             src="/assets/logo.png"
                             alt="TrustAI Logo"
