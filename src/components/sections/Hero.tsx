@@ -14,7 +14,7 @@ const Hero = () => {
             <NeuralMesh />
 
             {/* Content */}
-            <div className="relative z-20 container mx-auto px-6 text-center">
+            <div className="relative z-20 container mx-auto px-6 text-center pb-12 md:pb-0">
                 <motion.div
                     initial={{ opacity: 1, y: 0 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -58,10 +58,10 @@ const Hero = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 1, duration: 1 }}
-                className="absolute bottom-10 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-2 text-gray-500 text-sm"
+                className="absolute bottom-4 md:bottom-10 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-2 text-gray-500 text-sm"
             >
                 <span>Scroll to Explore</span>
-                <div className="w-[1px] h-12 bg-gradient-to-b from-contrast-gold/50 to-transparent" />
+                <div className="w-[1px] h-8 md:h-12 bg-gradient-to-b from-contrast-gold/50 to-transparent" />
             </motion.div>
         </section>
     );
