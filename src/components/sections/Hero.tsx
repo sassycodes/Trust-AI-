@@ -24,7 +24,8 @@ const Hero = () => {
                         IIIT PUNE PRESENTS
                     </span>
                     <h1 className="text-5xl md:text-7xl font-bold text-white tracking-tight mb-6">
-                        India AI <span className="text-transparent bg-clip-text bg-gradient-to-r from-contrast-gold to-royal-saffron">Summit - Pre-Event</span>
+                        India AI <span className="text-transparent bg-clip-text bg-gradient-to-r from-contrast-gold to-royal-saffron">Summit</span>
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-contrast-gold to-royal-saffron">Pre-Event</span>
                     </h1>
 
                     <div className="mb-8">
