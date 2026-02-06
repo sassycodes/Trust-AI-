@@ -73,7 +73,7 @@ const Navbar = () => {
                             {link.name}
                         </Link>
                     ))}
-                    <Link href="https://forms.gle/aBgEUkrRpkKZs9Su5" target="_blank">
+                    <Link href="https://www.google.com/search?q=unstop+trust+ai+ideathon&oq=unstop+trust+ai+ideathon&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg8MgYIAhBFGDwyBggDEEUYPNIBCTExMzI0ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8" target="_blank">
                         <Button variant="outline" className="border-contrast-gold/50 text-contrast-gold hover:bg-contrast-gold hover:text-midnight">
                             Register Now
                         </Button>
