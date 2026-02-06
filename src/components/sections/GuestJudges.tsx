@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Gavel, User } from "lucide-react";
+import { Gavel } from "lucide-react";
 import { SpotlightCard } from "../ui/spotlight-card";
 
 const GuestJudges = () => {
@@ -51,14 +51,7 @@ const GuestJudges = () => {
                             className="w-full max-w-sm"
                         >
                             <SpotlightCard className="h-full p-6 flex flex-col items-center text-center group bg-white/5 hover:bg-white/10 transition-colors border-white/10">
-                                <div className="mb-6 relative">
-                                    <div className="w-24 h-24 rounded-full bg-gradient-to-br from-contrast-gold to-royal-saffron p-[2px]">
-                                        <div className="w-full h-full rounded-full bg-black/50 backdrop-blur-sm flex items-center justify-center overflow-hidden">
-                                            <User className="w-12 h-12 text-white/80" />
-                                        </div>
-                                    </div>
-                                    <div className="absolute inset-0 rounded-full bg-contrast-gold/20 blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                                </div>
+
 
                                 <h3 className="text-xl font-bold text-white mb-2 group-hover:text-contrast-gold transition-colors">
                                     {judge.name}
