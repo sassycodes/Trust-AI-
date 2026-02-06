@@ -10,7 +10,7 @@ const Timeline = () => {
         { date: "Feb 8", title: "Proposal Submission", desc: "Submit your team's abstract." },
         { date: "Feb 9", title: "Finalists Announced", desc: "Top 20 teams selected." },
         { date: "Feb 10", title: "Grand Finale", desc: "24-hour physical ideathon." },
-    ];
+    ]
 
     return (
         <section id="timeline" className="py-24 relative bg-midnight/50">
