@@ -6,6 +6,7 @@ const Footer = () => {
         { name: "Saurav Dhabade", role: "9623328182" },
         { name: "Roshni Sahoo", role: "9137649761" },
         { name: "Gargi Avadhani", role: "7066081728" },
+        { name: "Priya Jadhav", role: "9112444965" },
 
     ];
 
@@ -48,7 +49,7 @@ const Footer = () => {
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
                                 {/* Office Bearers */}
                                 <div>
-                                    <h5 className="text-contrast-gold font-semibold mb-3">Student Coordinators</h5>
+                                    <h5 className="text-contrast-gold font-semibold mb-3">Organizing Team</h5>
                                     <div className="space-y-3">
                                         {officeBearers.map((member, i) => (
                                             <div key={i} className="flex justify-between items-center bg-white/5 p-3 rounded border border-white/5 hover:border-white/20 transition-colors">
@@ -61,7 +62,7 @@ const Footer = () => {
 
                                 {/* Vertical Heads */}
                                 <div>
-                                    <h5 className="text-contrast-gold font-semibold mb-3">Student Coordinators</h5>
+                                    <h5 className="text-contrast-gold font-semibold mb-3">Organizing Team</h5>
                                     <div className="space-y-3">
                                         {verticalHeads.map((member, i) => (
                                             <div key={i} className="flex justify-between items-center bg-white/5 p-3 rounded border border-white/5 hover:border-white/20 transition-colors">

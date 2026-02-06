@@ -2,6 +2,7 @@ import Hero from "@/components/sections/Hero";
 import Rules from "@/components/sections/Rules";
 import Themes from "@/components/sections/Themes";
 import Timeline from "@/components/sections/Timeline";
+import GuestJudges from "@/components/sections/GuestJudges";
 import Registration from "@/components/sections/Registration";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
             <Rules />
             <Themes />
             <Timeline />
+            <GuestJudges />
             <Registration />
         </main>
     );
