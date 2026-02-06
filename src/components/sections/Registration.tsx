@@ -14,7 +14,7 @@ const Registration = () => {
                 <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
                     Join the brightest minds at IIIT Pune and build the shield for India's digital frontier.
                 </p>
-                <Link href="https://forms.gle/aBgEUkrRpkKZs9Su5" target="_blank">
+                <Link href="https://unstop.com/hackathons/trustai-ideathon-2026-on-safe-and-trusted-ai-indian-institute-of-information-technology-pune-1635889" target="_blank">
                     <Button size="lg" className="bg-contrast-gold text-midnight hover:bg-contrast-gold/90 h-14 px-8 text-lg rounded-full">
                         Register Your Team <ArrowRight className="ml-2" />
                     </Button>
