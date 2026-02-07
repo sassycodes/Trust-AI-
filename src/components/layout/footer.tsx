@@ -3,7 +3,7 @@ import { Mail, Linkedin, Twitter, MapPin, Phone } from "lucide-react";
 
 const Footer = () => {
     const officeBearers = [
-        { name: "Saurav Dhabade", role: "9623328182" },
+        { name: "Saurav Dabhade", role: "9623328182" },
         { name: "Roshni Sahoo", role: "9137649761" },
         { name: "Gargi Avadhani", role: "7066081728" },
         { name: "Priya Jadhav", role: "9112444965" },
@@ -23,12 +23,24 @@ const Footer = () => {
                     {/* Brand & Address */}
                     <div>
                         <h3 className="text-2xl font-bold text-white mb-6">India AI Summit</h3>
-                        <div className="flex items-start gap-4 text-gray-400 mb-4">
-                            <MapPin className="text-contrast-gold shrink-0" />
-                            <p>
-                                IIIT Pune, Talegaon Dabhade,<br />
-                                Pune, Maharashtra - 410507
-                            </p>
+                        <div className="mb-8">
+                            <h4 className="text-lg font-semibold text-white mb-4 italic">Location - IIIT Pune</h4>
+                            <div className="flex items-start gap-4 text-gray-400 mb-6">
+                                <MapPin className="text-contrast-gold shrink-0" />
+                                <p>
+                                    IIIT Pune, Talegaon Dabhade,<br />
+                                    Pune, Maharashtra - 410507
+                                </p>
+                            </div>
+                            <Link
+                                href="https://maps.app.goo.gl/D2vkKe9asaJudAbD8"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center gap-2 px-4 py-2 bg-white/5 border border-white/10 rounded-full text-white text-sm hover:bg-white/10 transition-colors"
+                            >
+                                <span className="w-2 h-2 rounded-full bg-contrast-gold animate-pulse" />
+                                View in Google Maps
+                            </Link>
                         </div>
                     </div>
 
@@ -39,10 +51,10 @@ const Footer = () => {
 
                             {/* Faculty Advisor */}
                             <div className="mb-8">
-                                <h5 className="text-contrast-gold font-semibold mb-3">Faculty Advisor</h5>
+                                <h5 className="text-contrast-gold font-semibold mb-3">Programme Chair</h5>
                                 <div className="bg-white/5 p-4 rounded-lg border border-white/10 w-full sm:w-fit">
                                     <p className="text-white font-medium">Dr. Shrikant Salve</p>
-                                    <p className="text-xs text-gray-400">Faculty Advisor</p>
+                                    <p className="text-xs text-gray-400">Programme Chair</p>
                                 </div>
                             </div>
 

@@ -11,6 +11,10 @@ const GuestJudges = () => {
             bio: "Managing Director, Vicon, India."
         },
         {
+            name: "Mr. Ravi Mulchandani",
+            bio: "Principal Engineer at Dell Technologies."
+        },
+        {
             name: "Dr. Deepak Kshirsagar",
             bio: "Assistant Professor COEP Technological University, Pune"
         },
@@ -20,6 +24,10 @@ const GuestJudges = () => {
         },
         {
             name: "Dr. Sanga Chaki",
+            bio: "Assistant Professor in the Department of Computer Science and Engineering  at Indian Institute of Information Technology, Pune, India."
+        },
+        {
+            name: "Dr. Priyank Jain",
             bio: "Assistant Professor in the Department of Computer Science and Engineering  at Indian Institute of Information Technology, Pune, India."
         },
         {

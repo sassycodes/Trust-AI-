@@ -9,7 +9,7 @@ const Timeline = () => {
         { date: "Feb 5", title: "Registrations Open", desc: "Start of the journey." },
         { date: "Feb 8", title: "Proposal Submission", desc: "Submit your team's abstract." },
         { date: "Feb 9", title: "Finalists Announced", desc: "Top 20 teams selected." },
-        { date: "Feb 10", title: "Grand Finale", desc: "24-hour physical ideathon." },
+        { date: "Feb 10", title: "Grand Finale", desc: "Final Presentation Pitch at IIIT Pune Campus (10 am- 5pm)" },
     ]
 
     return (
